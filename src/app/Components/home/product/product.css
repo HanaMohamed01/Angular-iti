@@ -11,3 +11,7 @@
     align-items: center;
     background-color: #f0f0f0;
 }
+.card:hover{
+    background-color: #e0e0e0;
+    box-shadow: 0 0 20px #0000001a ;
+}
