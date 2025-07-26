@@ -1,0 +1,13 @@
+*{
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin:  30px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px #0000001a ;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
