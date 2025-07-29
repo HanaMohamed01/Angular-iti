@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule, CurrencyPipe } from '@angular/common';
 import { ActivatedRoute, RouterModule } from '@angular/router';
-import { ProductDetailsService } from '../details.service';
+import { ProductDetailsService } from './details.service';
 import { IProduct } from '../product/iproduct';
 
 @Component({
