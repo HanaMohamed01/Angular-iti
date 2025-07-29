@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import { Category } from './category/category';
-import { Product } from './product/product';
+import { Category } from '../category/category';
+import { ProductComponent } from '../product/product';
 @Component({
   selector: 'app-home',
-  imports: [Category , Product],
+  standalone: true,
+  imports: [Category, ProductComponent],
   templateUrl: './home.html',
-  styleUrl: './home.css'
+  styleUrls: ['./home.css']
 })
 export class Home {
 
